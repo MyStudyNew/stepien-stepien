@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyStudy - Parent Study Tracker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+  <div class="max-w-4xl mx-auto px-4 py-16 text-center">
+    <h1 class="text-5xl font-extrabold tracking-tight text-indigo-600 mb-4">
+      Never Be Surprised By Your Child's Grades Again
+    </h1>
+    <p class="text-xl text-gray-600 mb-8">
+      MyStudy gives parents daily visibility into study hours, completed assignments, and subject mastery without micromanaging.
+    </p>
+    
+    <div class="bg-white p-8 rounded-xl shadow-md max-w-md mx-auto border border-gray-100">
+      <h2 class="text-2xl font-bold mb-4">Get Early Access</h2>
+      <p class="text-sm text-gray-500 mb-6">Join our pilot program and lock in a 50% lifetime discount.</p>
+      
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-4">
+        <input type="email" name="email" placeholder="Enter your email address" required 
+               class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none">
+        <select name="role" class="w-full px-4 py-3 border rounded-lg text-gray-600">
+          <option value="parent">I am a Parent</option>
+          <option value="tutor">I am a Tutor / Teacher</option>
+        </select>
+        <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 rounded-lg transition">
+          Request Early Access
+        </button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
